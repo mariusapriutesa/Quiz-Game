@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:Quiz_Game"
         mc:Ignorable="d"
         Title="Simple quiz game" Height="450" Width="800">
-    <Grid>
+    <Grid Name="myGrid">
         <Label Name="scoreText" Content="Score: 0/10" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.124,-0.494" FontSize="20" />
-        <Label Name="questionOrder" Content="Questions" HorizontalAlignment="Left" Margin="352,10,0,0" VerticalAlignment="Top" Height="37" Width="117" FontSize="20"/>
+        <Label Name="questionOrder" Content="Questions" HorizontalAlignment="Left" Margin="297,10,0,0" VerticalAlignment="Top" Height="37" Width="224" FontSize="20"/>
         <Image Name="qImage" Source="Imagines/4.jpg" Stretch="Uniform" HorizontalAlignment="Left" Height="186" Margin="245,75,0,0" VerticalAlignment="Top" Width="301"/>
         <TextBlock Name="txtQuestion" HorizontalAlignment="Left" Margin="267,266,0,0" TextWrapping="Wrap" Text="La primera pregunta es 4+4?" VerticalAlignment="Top" FontSize="20"/>
         <Button Name="Ans1" Click="checkAnswer" Background="Khaki" Tag="0" Content="1" FontSize="26" HorizontalAlignment="Left" Margin="78,320,0,0" VerticalAlignment="Top" Width="115" Height="42"/>
